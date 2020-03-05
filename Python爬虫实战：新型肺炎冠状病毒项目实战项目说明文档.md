@@ -4,6 +4,9 @@
 >
 > >1.通过python爬取<a href="https://news.qq.com/zt2020/page/feiyan.htm#/">腾讯疫情情况分析数据</a>到mysql数据库
 > >
+> >- Mysql以及navicat版本
+> >  - ![image-20200305180616942](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200305180616942.png)
+> >
 > >2.需要用到的python第三方库：request、Flask
 > >
 > >
