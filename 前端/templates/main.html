@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>疫情监控</title>
+		<script src="../js/jquery.min.js"></script>
+		<link href="../css/main.css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<div id="time">我是时间</div>
+		<div id="title">我是标题</div>
+		<div id="left1">我是左1</div>
+		<div id="left2">我是左2</div>
+		<div id="mid1">
+			<div class="num"><h1>123</h1></div>
+			<div class="num"><h1>123</h1></div>
+			<div class="num"><h1>123</h1></div>
+			<div class="num"><h1>123</h1></div>
+			<div class="txt"><h2>累计确诊</h2></div>
+			<div class="txt"><h2>剩余疑似</h2></div>
+			<div class="txt"><h2>累计治愈</h2></div>
+			<div class="txt"><h2>累计死亡</h2></div>
+		</div>
+		<div id="mid2">我是中2</div>
+		<div id="right1">我是右1</div>
+		<div id="right2">我是右2</div>		
+	</body>
+	
+	<script>
+		function gettime(){
+			$.ajax({
+				url:"/time",
+			timeout:10000,
+			success:function(data){
+				$('#time').html(data)
+			},
+			err:function(){
+				
+			}
+			})
+		}
+		setInterval(gettime,1000)
+	</script>
+</html>
