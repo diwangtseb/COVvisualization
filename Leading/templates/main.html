@@ -5,11 +5,13 @@
 		<title>疫情监控</title>
 		<script src="../js/jquery.min.js"></script>
 		<link href="../css/main.css" rel="stylesheet" />
+		<script src="../js/echarts.min.js"></script>
+		<script src="../js/china.js"></script>
 	</head>
 	
 	<body>
 		<div id="time">我是时间</div>
-		<div id="title">我是标题</div>
+		<div id="title">全国疫情实时追踪</div>
 		<div id="left1">我是左1</div>
 		<div id="left2">我是左2</div>
 		<div id="mid1">
@@ -25,21 +27,10 @@
 		<div id="mid2">我是中2</div>
 		<div id="right1">我是右1</div>
 		<div id="right2">我是右2</div>		
+		<script src="../js/ec_center.js"></script>
+		<script src="../js/controllers.js"></script>
+		<script src="../js/ec_left1.js"></script>
 	</body>
 	
-	<script>
-		function gettime(){
-			$.ajax({
-				url:"/time",
-			timeout:10000,
-			success:function(data){
-				$('#time').html(data)
-			},
-			err:function(){
-				
-			}
-			})
-		}
-		setInterval(gettime,1000)
-	</script>
+	
 </html>
