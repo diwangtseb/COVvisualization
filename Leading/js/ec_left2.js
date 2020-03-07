@@ -1,9 +1,9 @@
-var ec_left1=echarts.init(document.getElementById("left1"),"dark");
+var ec_left2=echarts.init(document.getElementById("left2"),"dark")
 
 
-var ec_left1_Option={
+var ec_left2_Option={
 	title:{
-		text:"全国累计趋势",
+		text:"确诊以及疑似新增趋势",
 		textStyle:{
 			//color:"white"
 		},
@@ -20,7 +20,7 @@ var ec_left1_Option={
 		},
 	},
 	legend:{
-		 data: ['累计确诊', '现有疑似', '累计治愈', '累计死亡'],
+		 data: ['确诊新增', '疑似新增'],
 		 left:'right',
 	},
 	//圆形位置
@@ -28,7 +28,7 @@ var ec_left1_Option={
 		left:'4%',
 		right:'6%',
 		bottom:'4%',
-		top:'30',
+		top:'50',
 		containLable:true
 	},
 	xAxis: [{
@@ -65,30 +65,18 @@ var ec_left1_Option={
 	}],
 	 series: [
 	        {
-	            name: '累计确诊',
+	            name: '确诊新增',
 	            type: 'line',
 	            smooth: true,
 	            data: [120, 132, 101]
 	        },
 	        {
-	            name: '现有疑似',
+	            name: '疑似新增',
 	            type: 'line',
 	            smooth: true,
 	            data: [1, 2, 3]
-	        },
-	        {
-	            name: '累计治愈',
-	            type: 'line',
-	            smooth: true,
-	            data: [12, 13, 10]
-	        },
-	        {
-	            name: '累计死亡',
-	            type: 'line',
-	            smooth: true,
-	            data: [20, 32, 1]
 	        }
 	    ]
 }
 
-ec_left1.setOption(ec_left1_Option)
+ec_left2.setOption(ec_left2_Option)
