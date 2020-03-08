@@ -54,7 +54,7 @@
 							fontSize:8,
 						}
 					},
-					data:mydata
+					data:[]
 				}]
 			};
 			ec_center.setOption(ec_center_opention)

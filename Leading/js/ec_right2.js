@@ -18,7 +18,7 @@ var ec_right2_option={
 		gridSize:1,
 		sizeRange:[12,55],
 		ratationRange:[-45,0,45,90],
-		data:ddd,
+		data:[],
 		textStyle: {
 		    normal: {
 		        // Color can be a callback function or a color string

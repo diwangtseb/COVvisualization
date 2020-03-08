@@ -33,7 +33,7 @@ var ec_left1_Option={
 	},
 	xAxis: [{
 	        type: 'category',
-	        data: ['01.20','01.21','01.22']
+	        data: []
 	}],
 	yAxis: [{
 		type: 'value',
@@ -68,25 +68,25 @@ var ec_left1_Option={
 	            name: '累计确诊',
 	            type: 'line',
 	            smooth: true,
-	            data: [120, 132, 101]
+	            data: []
 	        },
 	        {
 	            name: '现有疑似',
 	            type: 'line',
 	            smooth: true,
-	            data: [1, 2, 3]
+	            data: []
 	        },
 	        {
 	            name: '累计治愈',
 	            type: 'line',
 	            smooth: true,
-	            data: [12, 13, 10]
+	            data: []
 	        },
 	        {
 	            name: '累计死亡',
 	            type: 'line',
 	            smooth: true,
-	            data: [20, 32, 1]
+	            data: []
 	        }
 	    ]
 }

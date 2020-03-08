@@ -19,13 +19,13 @@ var ec_right1_option={
 	},
 	xAxis:[{
 		type:'category',
-		data:['重庆','温州','深圳',"北京","广州"]
+		data:[]
 	}],
 	yAxis:{
 		type:'value'
 	},
 	series:[{
-		data:[525,490,391,366,327],
+		data:[],
 		type:'bar',
 		barMaxWidth:"50%"
 	}]

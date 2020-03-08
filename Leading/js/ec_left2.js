@@ -33,7 +33,7 @@ var ec_left2_Option={
 	},
 	xAxis: [{
 	        type: 'category',
-	        data: ['01.20','01.21','01.22']
+	        data: []
 	}],
 	yAxis: [{
 		type: 'value',
@@ -68,13 +68,13 @@ var ec_left2_Option={
 	            name: '确诊新增',
 	            type: 'line',
 	            smooth: true,
-	            data: [120, 132, 101]
+	            data: []
 	        },
 	        {
 	            name: '疑似新增',
 	            type: 'line',
 	            smooth: true,
-	            data: [1, 2, 3]
+	            data: []
 	        }
 	    ]
 }
