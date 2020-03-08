@@ -87,7 +87,7 @@
 		get_left2_data()
 		get_right1_data()
 		get_right2_data()
-		gettime()
+		//gettime()
 		//setInterval(get_mid2_data)
 		//setInterval(gettime)
 		//setInterval(get_mid1_data,1000)
